@@ -1,0 +1,51 @@
+{
+  "name": "mcp-latex",
+  "version": "0.1.0",
+  "description": "Model Context Protocol server for LaTeX: let an AI assistant check documents, parse compiler logs, and compile — great for theses and papers.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "latex",
+    "tex",
+    "thesis",
+    "academic",
+    "llm",
+    "ai"
+  ],
+  "type": "module",
+  "license": "MIT",
+  "author": "Marcelo Domingues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelogdomingues/mcp-latex.git"
+  },
+  "homepage": "https://github.com/marcelogdomingues/mcp-latex#readme",
+  "bugs": "https://github.com/marcelogdomingues/mcp-latex/issues",
+  "bin": {
+    "mcp-latex": "dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "start": "node --import tsx src/index.ts",
+    "test": "node --import tsx --test test/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.2",
+    "tsx": "^4.23.1",
+    "typescript": "^5.7.2"
+  }
+}
