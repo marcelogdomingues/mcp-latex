@@ -7,6 +7,8 @@ of guessing. Static analysis works with **no TeX install required**.
 
 🌍 **[English](README.md)** · [Português](README.pt.md) · 📚 [Documentation](docs/README.md)
 
+<p align="center"><img src="assets/demo.svg" alt="mcp-latex tool calls: check_document and parse_log" width="100%"></p>
+
 [![CI](https://github.com/marcelogdomingues/mcp-latex/actions/workflows/ci.yml/badge.svg)](https://github.com/marcelogdomingues/mcp-latex/actions/workflows/ci.yml)
 [![npm](https://img.shields.io/npm/v/mcp-latex.svg)](https://www.npmjs.com/package/mcp-latex)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)

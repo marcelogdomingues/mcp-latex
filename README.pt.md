@@ -8,6 +8,8 @@ mesmo corrigir a tua tese ou artigo em vez de adivinhar. A análise estática fu
 
 🌍 [English](README.md) · **[Português](README.pt.md)** · 📚 [Documentação](docs/README.md)
 
+<p align="center"><img src="assets/demo.svg" alt="chamadas de ferramentas do mcp-latex: check_document e parse_log" width="100%"></p>
+
 [![CI](https://github.com/marcelogdomingues/mcp-latex/actions/workflows/ci.yml/badge.svg)](https://github.com/marcelogdomingues/mcp-latex/actions/workflows/ci.yml)
 [![npm](https://img.shields.io/npm/v/mcp-latex.svg)](https://www.npmjs.com/package/mcp-latex)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
