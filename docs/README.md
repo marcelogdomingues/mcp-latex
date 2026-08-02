@@ -5,9 +5,11 @@
 - [Getting started & client setup](en/getting-started.md)
 - [Tools reference](en/tools.md)
 - [FAQ & troubleshooting](en/faq.md)
+- [Recipes](en/recipes.md)
 
 ## 🇵🇹 Português
 
 - [FAQ & resolução de problemas](pt/faq.md)
+- [Receitas](pt/recipes.md)
 - [Começar & configurar o cliente](pt/introducao.md)
 - [Referência das ferramentas](pt/ferramentas.md)
